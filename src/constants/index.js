@@ -10,32 +10,28 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    company: "Vosyn",
+    description: `Collaborated with a team of developers to build React applications using TypeScript for the VosynVerse platform. Developed a cross-platform React Native application, ensuring consistency across iOS and Android with Expo Go for testing. Optimized internal REST API usage by creating reusable React hooks, reducing redundant API calls by 20%. Implemented quality assurance processes with 80% code coverage using Jest for end-to-end testing.`,
+    technologies: ["TypeScript", "React.js", "Next.js", "React Native"],
   },
   {
-    year: "2021 - 2022",
+    year: "2021 - 2023",
     role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    company: "Bajaj Finance Ltd.",
+    // description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `Initiated and led the development of a consolidated customer portfolio feature using Node.js for the backend and React.js with TypeScript for the frontend, now used by 200,000 users daily. Developed microservices with Express and Node.js to aggregate and expose customer data via REST API. Achieved 23% fewer customer complaints by building extensive test coverage with JEST. Collaborated with product, developer, and UI/UX teams, speeding up the project timeline by 15%.`,
+    technologies: ["React.js", "Microservices", "REST API", "Postgres"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2019 - 2021",
+    role: "Full Stack Developer",
+    company: "Bajaj Finance Ltd.",
+    // description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Contributed to the development of a customer portal for Bajaj Finance using React and Node.js. Designed a reusable EMI calculator component, now used by 4 teams (https://www.bajajfinserv.in/personal-loan-emi-calculator). Implemented dynamic charts and graphs with React, Chart.js, and D3.js to visualize real-time loan data. Used Webpack, Craco, npm, and Babel for project setup and optimization. Collaborated on workflows, wireframes, and mockups with Figma.`,
+    technologies: ["JavaScript", "React", "Node.js", "Postgres"],
   },
+
 ];
 
 export const PROJECTS = [
