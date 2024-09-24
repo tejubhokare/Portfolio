@@ -11,7 +11,7 @@ const Navbar = () => {
                 {/* <img className='mx-2 w-10' src={logo} alt='logo' /> */}
             </div>
 
-            <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+            <div className='m-8 flex items-center justify-center gap-4 text-2xl mr-5'>
                 <FaLinkedin />
                 <FaGithub />
                 <FaSquareXTwitter />
